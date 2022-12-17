@@ -66,7 +66,7 @@ public class Artist extends Entity {
     /**
      * This function makes a SQL command.
      *
-     * @return string
+     * @return the command to SQL
      */
     public String toSQL() {
         return "insert into artists (id, nAlbums, name, nSongs) values (" +

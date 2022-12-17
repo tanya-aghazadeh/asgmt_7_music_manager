@@ -82,7 +82,7 @@ public class Album extends Entity {
     /**
      * This function makes a SQL command.
      *
-     * @return string
+     * @return the command to SQL
      */
     public String toSQL() {
         return "insert into albums (id, name, nSongs, artist) values (" +

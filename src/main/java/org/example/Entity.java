@@ -75,9 +75,9 @@ public class Entity {
     }
 
     /**
-     * This function gets toString for an Entity.
+     * This function converts an Entity to string.
      *
-     * @return string
+     * @return the string which has Entity info
      */
     public String toString() {
         return "Name: " + this.name + " Entity ID: " + this.entityID;

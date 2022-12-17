@@ -107,7 +107,7 @@ public class Song extends Entity {
     /**
      * This function makes a SQL command.
      *
-     * @return string
+     * @return the command to SQL
      */
     public String toSQL() {
         return "insert into songs (id, name, album, artist) values (" +
